@@ -19,6 +19,16 @@ long_planeteer_calls.find?("short_words")
 end
 
 def find_the_cheese# code an argument here
-
+def find_the_cheese(cheddar,gouda,camembert)
+def no_cheese(bun,ham,chicken,tomato_soup)
+snacks = ["crackers","gouda","thyme"]
+  find_the_cheese(snacks)
+foods = ["bun","tomato_soup","chicken"]
+  find_the_cheese(foods) 
+soup = ["tomato soup","cheddar","oyster crackers","gouda"]
+  find_the_cheese(soup)
+end
+snacks.include?(find_the_cheese)
+end
 end
    
